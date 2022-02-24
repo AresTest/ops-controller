@@ -22,7 +22,7 @@ items:
         - headWildcardFilter:
             excludes: ''
             includes: main
-        repoOwner: REPLACE_GITHUB_ORG
+        repoOwner: AresTest
         credentialsId: cloudbees-ci-casc-workshop-github-app
     projectFactories:
     - customMultiBranchProjectFactory:
@@ -37,7 +37,7 @@ items:
                     userRemoteConfigs:
                     - userRemoteConfig:
                         credentialsId: cloudbees-ci-casc-workshop-github-app
-                        url: https://github.com/REPLACE_GITHUB_ORG/ops-controller.git
+                        url: https://github.com/AresTest/ops-controller.git
                     branches:
                     - branchSpec:
                         name: '*/main'
